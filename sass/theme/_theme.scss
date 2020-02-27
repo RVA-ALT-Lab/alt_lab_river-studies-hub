@@ -53,6 +53,34 @@ li.active {
   text-decoration: underline;
 }
 
+// Putting in the piping for the menu (or not as it turns out)
+#navbarNavDropdown {
+  position: relative;
+  margin: 1em;
+  overflow: hidden;
+}
+
+#navbarNavDropdown ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -1px;
+}
+
+#navbarNavDropdown li {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: .25em 0;
+  padding: 0 1em;
+  text-align: center;
+  // border-left: 1px solid #5c757d;
+}
+
+// #navbarNavDropdown li:first-child {
+//   border-left: none;
+// }
+
 // .custom-header-img {
 //   height: 100vw;
 //   background-attachment: fixed;
@@ -81,7 +109,7 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 #secondary img, article img, figure, img, img.wp-post-image {
-	margin-bottom: 1em;
+	margin-bottom: .7em;
 }
 
 p {
@@ -159,7 +187,6 @@ p {
   height: 300px;
   margin-bottom: 10px;
 }
-
 
 //SUB ORGS
 .jumbotron.water {
@@ -404,6 +431,7 @@ blockquote.default{
 .about-us-grid {
   display: grid;
   grid-gap: 16px;
+  padding-top: 10px;
 }
 
 .about-us-grid-inside {
@@ -447,11 +475,6 @@ blockquote.default{
   width: 100%;
 }
 
-// .about-us-grid .btn-primary {
-//   background-color: $dark-gray;
-//   border-color: $dark-gray;
-// }
-
 @media (min-width: 600px) {
 	.about-us-grid {
 		grid-template-columns: repeat( 2, 1fr );
@@ -463,6 +486,32 @@ blockquote.default{
 // 		grid-template-columns: repeat( 3, 1fr );
 // 	}
 // }
+
+
+//FACULTY Stuff
+
+.lab-row {
+	display: flex;
+}
+
+.lab-row div {
+	display: inline-block;	
+}
+
+.lab-row .lab-label {
+	margin-right: 20px;
+}
+
+// .lab-label {
+//   font-weight: 700;
+// }
+
+.lab-title-content {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
 
 
 //DISPLAY POSTS STUFF
