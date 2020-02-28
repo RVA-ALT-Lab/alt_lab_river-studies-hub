@@ -473,6 +473,7 @@ blockquote.default{
   object-fit: cover;
   filter: grayscale(100%);
   width: 100%;
+  padding: .55rem;
 }
 
 @media (min-width: 600px) {

@@ -17,11 +17,11 @@
 	<div class="entry-content">
 		<div class="light-gray-solid-bar"></div>
 					<div class="grid-cards">
-						<div class="course-cards"><a href="http://localhost.com/multihome/envsriverhub/certifications/"><img class="aligncenter size-full wp-image-173" src="http://localhost.com/multihome/envsriverhub/wp-content/uploads/sites/19/2020/02/certs_img.jpg" alt="" width="489" height="622" />RSL Certificate</a></div>
+						<div class="course-cards"><a href="https://rampages.us/vcuriverstudies/river-studies-leadership-certificate/"><img class="aligncenter size-full wp-image-173" src="https://rampages.us/vcuriverstudies/wp-content/themes/alt_lab_river-studies-hub/imgs/certs_img.jpg" alt="Image of students" width="489" height="622" />RSL Certificate</a></div>
 
-						<div class="course-cards"><a href="http://localhost.com/multihome/envsriverhub/courses/"><img class="aligncenter size-full wp-image-174" src="http://localhost.com/multihome/envsriverhub/wp-content/uploads/sites/19/2020/02/course_img.jpg" alt="" width="495" height="624" />Courses</a></div>
+						<div class="course-cards"><a href="https://rampages.us/vcuriverstudies/courses/"><img class="aligncenter size-full wp-image-174" src="https://rampages.us/vcuriverstudies/wp-content/themes/alt_lab_river-studies-hub/imgs/course_img.jpg" alt="image of desk with someone writing" width="495" height="624" />Courses</a></div>
 
-						<div class="course-cards"><a href="http://localhost.com/multihome/envsriverhub/field-courses/"><img class="aligncenter size-full wp-image-167" src="http://localhost.com/multihome/envsriverhub/wp-content/uploads/sites/19/2020/02/IMG_20180717_185347702_HDR-scaled-1.jpg" alt="River study by a group of scientists" width="2560" height="1920" />Field Courses</a></div>
+						<div class="course-cards"><a href="https://rampages.us/vcuriverstudies/field-courses/"><img class="aligncenter size-full wp-image-167" src="https://rampages.us/vcuriverstudies/wp-content/themes/alt_lab_river-studies-hub/imgs/fieldcourses_img.jpg" alt="A group of scientists on a riverbank" width="494" height="624" />Field Courses</a></div>
 		</div>
 
 			<?php the_content(); ?>
